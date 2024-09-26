@@ -22,30 +22,6 @@ Backend:**
 1. Laptop Camera: Used to capture images for face recognition (for students).
 2. USB Camera: Captures images for teacher attendance.
 
-**Project Structure**
-Face-Recognition-Attendance-Python-and-xampp/
-│
-├── Python/
-│   ├── capture_images.py       # Captures images for training and attendance marking
-│   ├── face_recognition.py     # Main face recognition script
-│   ├── attendance.py           # Marks attendance in the database
-│   ├── send_whatsapp.py        # Sends attendance confirmation via WhatsApp
-│   └── telegram_bot.py         # Sends attendance confirmation via Telegram
-│
-├── Web/
-│   ├── index.html              # Main landing page
-│   ├── attendance_records.php  # Displays attendance records
-│   ├── css/
-│   │   └── style.css           # Custom styles for the web interface
-│   └── js/
-│       └── script.js           # JavaScript for client-side logic
-│
-├── SQL/
-│   └── attendance_db.sql       # SQL script to create the database and tables
-│
-├── README.md                   # Project documentation
-└── requirements.txt            # Python dependencies
-
 **Installation**
 Prerequisites:
 Python
