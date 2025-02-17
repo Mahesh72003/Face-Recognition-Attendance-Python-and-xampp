@@ -5,8 +5,8 @@ from telegram.ext import (
 )
 import mysql.connector
 
-TOKEN: Final = "7321892436:AAGLiq85Qc93THFgKl0B1p9W6M6Eh9rejuk"
-BOT_USERNAME: Final = "@vkit_mini_project_bot"
+TOKEN: Final = ""
+BOT_USERNAME: Final = ""
 
 # Database connection details
 DB_HOST = 'localhost'
